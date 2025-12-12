@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI)"
+authors:
+  - name: "The ROS Collective"
+version: "v1.0"
+year: 2025
+license: "CC-BY-SA-4.0"
+abstract: >
+  Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI) presents a
+  mathematical framework for modeling hybrid cognitive systems as ecological
+  fields governed by constraints, resonance, and stability–collapse dynamics.
+  The work introduces a unified formalism using manifolds, tensor fields, and
+  operator dynamics to describe coherence, attractors, and phase transitions in
+  human–system interaction.
