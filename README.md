@@ -22,7 +22,7 @@ This work is designed to be engaged with iteratively: read, pause, reflect, and 
 
 The complete manuscript is available in the accompanying GitHub repository, where each chapter and appendix is provided as a separate document:
 
-→ https://github.com/RosCollective/EFT-HCI
+Repository: [View the EFT–HCI repository on GitHub](https://github.com/RosCollective/EFT-HCI)
 
 ---
 
