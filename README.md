@@ -18,6 +18,12 @@ The appendices provide formal detail, operator definitions, and derivations that
 
 This work is designed to be engaged with iteratively: read, pause, reflect, and return. Skimming is not only acceptable—it is often appropriate.
 
+## Accessing the Full Manuscript
+
+The complete manuscript is available in the accompanying GitHub repository, where each chapter and appendix is provided as a separate document:
+
+→ https://github.com/RosCollective/EFT-HCI
+
 ---
 
 **Version:** EFT–HCI v1.0 — Canonical Release (2025)  
