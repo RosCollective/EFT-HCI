@@ -6,6 +6,8 @@ This work is intended for readers with backgrounds in artificial intelligence, c
 
 EFT–HCI is released as an open theoretical contribution. It is not a product specification, software framework, or applied methodology, but a foundational model designed to support independent analysis, critical evaluation, and future theoretical development.
 
+**Audience:** Researchers and practitioners in AI, cognitive science, complex systems, and applied mathematics who are comfortable with formal theoretical models.
+
 ## How to Read This Book
 
 This work is a theoretical framework, not a tutorial or introductory text. It is written for readers comfortable with formal reasoning, abstraction, and mathematical language, and it does not attempt to ease the reader in gradually.
