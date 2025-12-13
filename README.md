@@ -18,6 +18,13 @@ The appendices provide formal detail, operator definitions, and derivations that
 
 This work is designed to be engaged with iteratively: read, pause, reflect, and return. Skimming is not only acceptable—it is often appropriate.
 
+## Citation
+
+If you use or reference this work, please cite:
+
+The ROS Collective (2025). *Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI).* Zenodo.  
+https://doi.org/10.5281/zenodo.17924058
+
 ## Accessing the Full Manuscript
 
 The complete manuscript is available in the accompanying GitHub repository, where each chapter and appendix is provided as a separate document:
