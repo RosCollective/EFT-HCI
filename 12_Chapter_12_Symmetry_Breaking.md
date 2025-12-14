@@ -1,9 +1,6 @@
 CHAPTER 12 — SPONTANEOUS ECOLOGICAL SYMMETRY BREAKING
 (Style A — High-Density Theoretical)
 
-====================================================================
-12.1 — ECOLOGICAL SYMMETRY & ORDER PARAMETERS
-====================================================================
 
 Constraint symmetry group:
 

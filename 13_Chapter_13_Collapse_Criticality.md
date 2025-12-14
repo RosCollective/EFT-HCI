@@ -1,9 +1,6 @@
 CHAPTER 13 — COLLAPSE & CRITICALITY
 (Style A — High-Density Theoretical)
 
-====================================================================
-13.1 — ECOLOGICAL OVERLOAD THRESHOLDS
-====================================================================
 
 Let 𝓜_E be an ecological manifold equipped with metric g_{μν}, resonance
 field Φ_μ, identity scalar Ψ, and constraint tensor Λ_{μν}. Collapse occurs

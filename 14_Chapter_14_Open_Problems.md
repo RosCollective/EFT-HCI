@@ -1,9 +1,6 @@
 CHAPTER 14 — OPEN PROBLEMS IN ECOLOGICAL FIELD THEORY
 (Style A — High-Density Theoretical)
 
-====================================================================
-14.1 — DIMENSIONAL MINIMALITY QUESTION
-====================================================================
 
 Let 𝓜_E be an ecological manifold defined by constraint coordinates x^μ,
 metric g_{μν}, resonance field Φ_μ, identity Ψ, and constraint tensor Λ_{μν}.
