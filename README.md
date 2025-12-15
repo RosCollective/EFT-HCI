@@ -23,7 +23,7 @@ This work is designed to be engaged with iteratively: read, pause, reflect, and 
 If you use or reference this work, please cite:
 
 The ROS Collective (2025). *Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI).* Zenodo.  
-https://doi.org/10.5281/zenodo.17924058
+DOI: https://doi.org/10.5281/zenodo.17924057
 
 ## Accessing the Full Manuscript
 
