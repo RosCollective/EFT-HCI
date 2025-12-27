@@ -33,6 +33,6 @@ Repository: [View the EFT–HCI repository on GitHub](https://github.com/RosColl
 
 ---
 
-**Version:** EFT–HCI v1.0 — Canonical Release (2025)  
+**Version:** EFT–HCI v1.0.2 — Canonical Release (2025)  
 **License:** Creative Commons Attribution–ShareAlike 4.0 International (CC BY-SA 4.0)  
 **Copyright:** © 2025 The ROS Collective
