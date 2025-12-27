@@ -1,7 +1,7 @@
 TITLE PAGE
 ------------------------------
 Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI)
-Canonical Manuscript v1.0
+Canonical Manuscript v1.0.2
 The ROS Collective
 2025
 
@@ -21,7 +21,7 @@ maintained and all derivative works are released under the same license.
 
 VERSION LINE
 ------------------------------
-EFT–HCI v1.0 — Canonical Release
+EFT–HCI v1.0.2 — Canonical Release
 2025
 
 SCHOLARLY ABSTRACT
