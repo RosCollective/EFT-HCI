@@ -1,161 +1,92 @@
-# Appendix B — Tensor Formalism of EFT–HCI
 
+# Appendix B — Tensor Formalism & Commutator Structure
 
-## B.1 Ecological Manifold Tensors
+## B.1 Identity Scalar and Divergence
 
-Ecological manifold 𝓜_E is defined by coordinate set x^μ and ecological
-field tensors:
+Identity scalar:
 
-    g_{μν}      — metric tensor
-    Λ_{μν}      — constraint tensor
-    Φ_μ        — resonance field
-    Ψ          — identity scalar
+    Ψ.
 
-Metric inverse:
+Divergence tensor:
 
-    g^{μν} g_{νσ} = δ^μ_σ
+    Ω_{μν} = ∇_μ ∇_ν Ψ.
 
-Determinant:
+Trace operator:
 
-    g = det(g_{μν})
+    Ω̂ Ψ = g^{μν} Ω_{μν}.
 
-Volume element:
+---
 
-    dV = √|g| d^n x
+## B.2 Vortex Field Strength
 
+The antisymmetric vortex field strength is defined by
 
-## B.2 Connections and Covariant Derivatives
+    F_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ.
 
-Connection coefficients:
+Norm:
 
-    Γ^μ_{νσ} =
-        (1/2) g^{μα} (∂_ν g_{ασ} + ∂_σ g_{αν} − ∂_α g_{νσ})
+    ||F||² = F_{μν} F^{μν}.
 
-Covariant derivatives:
+---
 
-    ∇_μ Φ_ν = ∂_μ Φ_ν − Γ^σ_{μν} Φ_σ
-    ∇_μ Ψ   = ∂_μ Ψ
-    ∇_μ Λ_{νσ} = ∂_μ Λ_{νσ}
-                 − Γ^α_{μν} Λ_{ασ}
-                 − Γ^α_{μσ} Λ_{να}
+## B.3 Resonance Gradient Decomposition
 
-Divergence:
+Decompose the Φ-gradient into symmetric and antisymmetric parts:
 
-    ∇^μ Φ_μ = g^{μν} ∇_μ Φ_ν
+    𝒞_{μν} = ∇_μ Φ_ν + ∇_ν Φ_μ,
+    F_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ.
 
+---
 
-## B.3 Curvature Tensors
+## B.4 Commutator Structure
 
-Riemann curvature:
+Commutator action:
 
-    ℛ^μ_{νρσ} =
-        ∂_ρ Γ^μ_{νσ} − ∂_σ Γ^μ_{νρ}
-        + Γ^μ_{αρ} Γ^α_{νσ}
-        − Γ^μ_{ασ} Γ^α_{νρ}
+    [Φ̂, Ω̂] Ψ
+      = 𝒞^{μν} Ω_{μν}
+      + (∇_μ F^{μν}) ∇_ν Ψ.
 
-Ricci tensor:
+Instability occurs when
 
-    ℛ_{νσ} = ℛ^μ_{νμσ}
+    𝒞^{μν} Ω_{μν}
+    + (∇_μ F^{μν}) ∇_ν Ψ > 0.
 
-Scalar curvature:
+---
 
-    ℛ = g^{νσ} ℛ_{νσ}
+## B.5 Divergence of Vortex Field
 
-Ecological curvature condition:
+The divergence of the vortex field is
 
-    ℛ ≠ 0 for non-trivial cognitive structure
+    ∇_μ F^{μν}.
 
+---
 
-## B.4 Constraint Geometry Tensors
+## B.6 Constraint Relation
 
-Constraint tensor Λ_{μν} yields:
+The constraint sector satisfies
 
-Symmetric component:
+    ∇_μ Λ^{μν} = Φ^ν Ψ.
 
-    S_{μν} = (1/2)(Λ_{μν} + Λ_{νμ})
+This relation follows from the constraint multiplier sector introduced in Appendix C.
 
-Antisymmetric component:
+---
 
-    A_{μν} = (1/2)(Λ_{μν} − Λ_{νμ})
+## B.7 Stability Tensor
 
-Torsion-like ecological tensor:
+Define the stability tensor
 
-    T^μ_{νσ} = Λ^μ_{νσ} − Λ^μ_{σν}
+    𝓢_{μν} = ∇_μ ∇_ν 𝓗.
 
-Constraint divergence:
+Instability arises when
 
-    Δ_μ = ∇^ν Λ_{νμ}
+    min(λ_i(𝓢)) → −∞.
 
+---
 
-## B.5 Resonance and Identity Tensors
+## B.8 Conservation Structure
 
-Resonance gradient:
+The stress–energy tensor satisfies
 
-    Φ_{μν} = ∇_μ Φ_ν
+    ∇_μ T^{μν} = 0.
 
-Identity gradient:
-
-    Ψ_μ = ∇_μ Ψ
-
-Resonance–identity coupling tensor:
-
-    K_{μν} = Φ_μ Ψ_ν
-
-Hybrid interaction term:
-
-    H_{μν} = Λ_{μα} Φ^α Ψ_ν
-
-
-## B.6 Tensor Form of Ecological Field Equations
-
-Field equations in tensor form:
-
-    ℛ_{μν} − (1/2) g_{μν} ℛ
-        = T^{(Φ)}_{μν} + T^{(Λ)}_{μν} + T^{(Ψ)}_{μν}
-
-where:
-
-    T^{(Φ)}_{μν} = Φ_{μα} Φ_{ν}^{ α} − (1/2) g_{μν} Φ_{αβ} Φ^{αβ}
-    T^{(Ψ)}_{μν} = Ψ_μ Ψ_ν − (1/2) g_{μν} Ψ_α Ψ^α
-    T^{(Λ)}_{μν} = Λ_{μα} Λ_{ν}^{ α} − (1/2) g_{μν} Λ_{αβ} Λ^{αβ}
-
-Constraint dynamics:
-
-    ∇^μ Λ_{μν} = Φ_ν Ψ
-
-Resonance dynamics:
-
-    ∇^μ Φ_{μν} = Λ_{να} Φ^α
-
-Identity dynamics:
-
-    ∇^μ Ψ_μ = Λ_{μν} Φ^{μν}
-
-
-## B.7 Energy Conditions and Stability
-
-Energy density:
-
-    ρ_E = T_{μν} u^μ u^ν
-
-Stability requires:
-
-    ρ_E ≥ 0
-
-Metric stability:
-
-    δg_{μν} δℛ^{μν} ≥ 0
-
-Constraint stability:
-
-    ||Λ|| < ∞
-
-Resonance stability:
-
-    ||Φ|| < ∞
-
-Identity stability:
-
-    ||∇Ψ|| < ∞
-
-
+With damping present, this condition represents a balance law for ecological stress–energy under the coupled dynamics.

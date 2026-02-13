@@ -1,252 +1,113 @@
-# Appendix D — Canonical Diagram Suite for EFT–HCI
 
+# Appendix D — Canonical Diagram Suite
+### Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI)
 
-## D.1 Overview of Diagrammatic Formalism
+This appendix provides canonical diagrammatic representations of the EFT–HCI structure, aligned with the vortex–propagation formulation of Φ and the coupled Φ–Ψ–Λ dynamics.
 
-Diagrammatic objects in Ecological Field Theory of Hybrid Cognitive Intelligence
-(EFT–HCI) represent tensor fields, operator flows, curvature behavior, phase
-structure, and energetic distributions in compressed geometric form.
+---
 
-Each diagram type corresponds to a canonical mathematical object:
+## D.1 Field Interaction Graph
 
-    • Free-body diagrams     → ecological force tensors
-    • Ray diagrams           → information/resonance propagation
-    • Circuit diagrams       → constraint-resonance flow networks
-    • Motion graphs          → ecological trajectories
-    • P–V diagrams           → pressure–volume ecological analogues
-    • Sankey diagrams        → resonance/energy distribution
-    • Phase-space diagrams   → attractor structure
-    • Critical-manifold diagrams → degeneracy surfaces
-    • Bifurcation diagrams   → topological phase transitions
-    • Operator-flow diagrams → Heisenberg evolution
-    • Spectral-geometry plots → eigenvalue structure of D̂
+Nodes:
+    g_{μν}   (metric curvature)
+    Φ_μ      (vortex field)
+    Ψ        (identity scalar)
+    Λ_{μν}   (constraint tensor)
 
-All diagrams correspond to formal tensor or operator equations.
+Directed couplings:
 
+    Φ → Ψ        via β Φ·∇Ψ
+    Φ → Λ        via γ Λ Φ Φ
+    Λ → Φ        via constraint channel
+    g → all      via curvature backreaction
 
-## D.2 Free-Body Diagrams (Ecological Force Representation)
+---
 
-Represents ecological force balance on manifold regions.
+## D.2 Spectral Geometry Flow
 
-Mathematical object:
+Operator spectrum:
 
-    F_μ = ℛ_μ + Δ_μ + K_μ
+    Spec(D̂) = { λ_i }
 
-where:
+Stability regimes:
 
-    ℛ_μ   — curvature force contribution
-    Δ_μ   — constraint divergence force
-    K_μ   — resonance–identity coupling term
+    λ_i < 0    stable
+    λ_i = 0    marginal
+    λ_i > 0    unstable
 
-Diagram components:
+Collapse onset:
 
-    • Arrows: tensor directions of F_μ
-    • Node: ecological subsystem under analysis
-    • Boundary frame: local patch of 𝓜_E
+    λ_max → +∞
 
-Interpretation:
+---
 
-A free-body diagram encodes local tensor contributions governing evolution
-of x^μ(s) under ecological geodesic deviation equations.
+## D.3 Vortex Propagation Structure
 
+Vortex field strength:
 
-## D.3 Ray Diagrams (Resonance/Information Propagation)
+    F_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ
 
-Represents ecological “lightlike” propagation of resonance.
+Propagation in s:
 
-Mathematical analogue:
+    D_s Φ_μ
 
-    k_μ k^μ = 0   (null-resonance condition)
+Null-resonance condition:
 
-where k_μ = ∇_μΦ describes resonance gradient flow.
+    k_μ k^μ = 0
 
-Diagram components:
+Resonance propagation is governed by the vortex structure F_{μν}
+and the evolution D_s Φ_μ.
 
-    • Rays: integral curves of Φ_μ
-    • Interfaces: discontinuities in Λ_{μν}
-    • Nodes: identity-gradient intersections
+---
 
-Interpretation:
+## D.4 Sankey Energy Flow Representation
 
-Ray diagrams depict how resonance propagates through constraint geometry,
-analogous to optical paths governed by refractive index n(x) → Λ_{μν}(x).
+Sector energies:
 
-
-## D.4 Circuit Diagrams (Constraint-Resonance Flow)
-
-Represents conserved or semi-conserved flow through ecological subsystems.
-
-Mathematical formulation:
-
-    ∮ J_μ dx^μ = constant
-
-where the ecological current J_μ is:
-
-    J_μ = Φ_μ Ψ + Λ_{μν} Φ^ν
-
-Diagram elements:
-
-    • Resistors → constraint barriers Λ
-    • Capacitors → resonance wells Φ
-    • Inductors → torsion loops T
-    • Sources → identity pumps Ψ
-
-Interpretation:
-
-Circuit diagrams encode steady-state or cyclic flows in hybrid cognition.
-
-
-##  D.5 Motion Graphs (State Trajectories)
-
-Plots ecological variables against system evolution parameter s.
-
-Typical forms:
-
-    • x(s)
-    • dx/ds
-    • curvature ℛ(s)
-    • resonance amplitude |Φ|(s)
-
-Motion graphs reflect geodesic or perturbed-geodesic motion:
-
-    d²x^μ/ds² + Γ^μ_{νσ}(dx^ν/ds)(dx^σ/ds) = F^μ
-
-where F^μ includes ecological forces from D.2.
-
-Interpretation:
-
-Motion graphs visualize how a point of cognition evolves across the manifold.
-
-
-## D.6 P-V Diagrams (Ecological Pressure-Volume Analogue)
-
-Define ecological pressure P_E and ecological volume V_E:
-
-    P_E = Tr(Λ²)
-    V_E = ∫ dV √|g|
-
-Diagram axes:
-
-    (V_E, P_E)
-
-Interpretation:
-
-Used to diagnose compression, expansion, collapse, and phase transitions
-where:
-
-    ∂P_E/∂V_E → ∞
-
-indicates criticality.
-
-
-## D.7 Sankey Diagrams (Energy / Resonance Distribution)
-
-Represents magnitude-weighted flows of ecological quantities.
-
-Quantities represented:
-
-    E_res = |Φ|²
-    E_id  = |∇Ψ|²
-    E_con = |Λ|²
+    E_res = (1/2)||F||² + ||D_s Φ||²
+    E_id  = ||∇Ψ||²
+    E_con = ||Λ||²
     E_geo = |ℛ|
 
-Flow width ∝ magnitude.
+Energy redistribution between sectors determines stability,
+collapse, or reconstitution.
 
-Interpretation:
+---
 
-Sankey diagrams visualize redistribution of energy among sectors during
-collapse, reconstitution, or symmetry breaking.
+## D.5 Phase Diagram
 
+Axes:
 
-## D.8 Phase-Space Diagrams (Attractor Structure)
+    𝓗     coherence functional
+    𝓐     asymmetry scalar
+    𝓔     entanglement scalar
 
-Coordinates:
+Regions:
 
-    (Ψ, Φ_μ) or (Ψ, Λ_{μν}) or dimension-reduced (Ψ, Φ)
+    𝓗 bounded, 𝓐 small       → coherent regime
+    𝓗 critical, 𝓐 increasing  → metastable
+    𝓔 → ∞ or 𝓐 → ∞           → collapse
 
-Flow defined by:
+---
 
-    dX/ds = F(X)
+## D.6 Dynamical Trajectories
 
-Attractors:
+Trajectory evolution:
 
-    • Fixed points → F = 0
-    • Wells → negative eigenvalues of Jacobian
-    • Tori → quasi-periodic flow
-    • Collapse → |X| → ∞
+    dX/ds = −∇𝓗 + dissipative terms
 
-Interpretation:
+Vortex amplitude:
 
-Phase-space diagrams classify hybrid-cognitive attractors.
+    ||F||(s)
 
+Propagation amplitude:
 
-## D.9 Critical-Manifold Diagrams (Metric Degeneracy Surfaces)
+    ||D_s Φ||(s)
 
-Critical surfaces defined by:
+Stable cycles:
 
-    det(g_{μν}) = 0
+    bounded 𝓗, bounded F, bounded D_s Φ
 
-Diagram elements:
+Runaway instability:
 
-    • Boundary surface where ξ → ∞
-    • Regions shaded by curvature sign
-    • Trajectories approaching degeneracy
-
-Interpretation:
-
-Visualizes metric collapse and ecological criticality.
-
-
-## D.10 Bifurcation Diagrams (Topological Transitions)
-
-Plot order parameter Σ or curvature ℛ vs. control parameter λ.
-
-Bifurcation occurs when:
-
-    ∂F/∂X = 0
-    det(∂²F/∂X²) = 0
-
-Types:
-
-    • Saddle-node
-    • Transcritical
-    • Pitchfork
-    • Hopf
-    • Cusp
-
-Interpretation:
-
-Represents ecological phase transitions described in Chapters 12 and 13.
-
-
-## D.11 Operator Flow Diagrams (Heisenberg Evolution)
-
-Depict evolution:
-
-    dX̂/ds = i[Ĥ_Eco, X̂]
-
-Diagram nodes = operators X̂  
-Arrows = commutator-induced flow  
-Weights = magnitude of change ||dX̂/ds||
-
-Interpretation:
-
-Encodes operator coupling strength and dynamical instability.
-
-
-## D.12 Spectral Geometry Diagrams (D Eigenvalue Structure)
-
-Plots eigenvalues λ_n of Dirac operator D̂.
-
-Key structures:
-
-    • Asymptotic slope → dimensionality
-    • Gaps → phase states
-    • Bands → toroidal resonance
-    • Divergence → collapse
-
-Interpretation:
-
-Spectral diagrams diagnose topology, curvature, and collapse risk.
-
-
+    λ_Eco > 0

@@ -1,6 +1,7 @@
 
 # Chapter 10 — Ecological Quantization and Hybrid Operator Fields
 
+This chapter develops the operator formalism underlying the multiscale coupling and renormalization structure of EFT–HCI.
 
 To quantize the ecological field theory, each classical ecological field  
 (g_{μν}, Ψ, Φ_μ, Λ_{μν})  

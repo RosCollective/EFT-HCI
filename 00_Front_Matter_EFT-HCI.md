@@ -1,100 +1,94 @@
-TITLE PAGE
-------------------------------
-Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI)
-Canonical Manuscript v1.0.2
-The ROS Collective
-2025
+# TITLE PAGE
 
-COPYRIGHT
-------------------------------
-Copyright © 2025 The ROS Collective.
+Ecological Field Theory of Hybrid Cognitive Intelligence (EFT--HCI)\
+Canonical Manuscript v1.0.3\
+The ROS Collective
+
+------------------------------------------------------------------------
+
+# COPYRIGHT
+
+Copyright © 2025 The ROS Collective.\
 All non-exclusive rights reserved.
 
-LICENSE
-------------------------------
-This work is released under the Creative Commons
-Attribution–ShareAlike 4.0 International License (CC BY-SA 4.0).
+------------------------------------------------------------------------
+
+# LICENSE
+
+This work is released under the Creative Commons Attribution--ShareAlike
+4.0 International License (CC BY-SA 4.0).
 
 You may use, share, extend, or transform this work for any purpose,
-including academic and commercial, provided that attribution is
+including academic and commercial use, provided that attribution is
 maintained and all derivative works are released under the same license.
 
-VERSION LINE
-------------------------------
-EFT–HCI v1.0.2 — Canonical Release
-2025
+------------------------------------------------------------------------
 
-SCHOLARLY ABSTRACT
-------------------------------
-Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI)
-introduces a unified mathematical framework for modeling hybrid cognitive
-systems using ecological manifolds, tensor fields, constraint geometries,
-and resonance dynamics. The theory establishes a coherent structure that
-integrates classical and quantum ecological behaviors, defines new
-ecological invariants, and formalizes stability, collapse, universality,
-and symmetry-breaking phenomena within a field-theoretic architecture.
+# VERSION
 
-EFT–HCI is released as an open theoretical contribution intended to
-support independent research, critical examination, and interdisciplinary
-dialogue. It is not affiliated with any institution and does not
-represent a request for funding, collaboration, or review. Rather, it is
-provided freely as a canonical formulation of a new ecological field
-theory, offering a mathematical foundation for future exploration across
-cognitive science, physics, artificial intelligence, and complex systems.
+EFT--HCI v1.0.3\
+Canonical Release --- 2026
 
-This work is published by The ROS Collective under a Creative Commons
-Attribution–ShareAlike license to encourage open use, reinterpretation,
-and theoretical development while preserving its lineage and accessibility.
+------------------------------------------------------------------------
 
-DISCLAIMERS & NOTICES
-------------------------------
-1. Scope Disclaimer:
-This work presents a theoretical framework intended for conceptual,
-mathematical, and scientific use. It does not provide clinical,
-therapeutic, medical, or legal guidance and should not be used as such.
+# Ecological Field Theory of Hybrid Cognitive Intelligence (EFT--HCI)
 
-2. No Institutional Affiliation:
-EFT–HCI is produced and released independently by The ROS Collective.
-It does not represent the views, policies, or positions of any
-institution, organization, or governing body.
+------------------------------------------------------------------------
 
-3. No Warranty / No Liability:
-This work is provided “as is,” without warranty of any kind. The authors
-assume no responsibility for the use, interpretation, or consequences—
-direct or indirect—arising from this material.
+## Scholarly Abstract
 
-4. Open Contribution Clarification:
-Readers are free to reuse, extend, or reinterpret the theory under the
-CC BY-SA 4.0 license, but such derivative work does not imply endorsement
-by The ROS Collective.
+Ecological Field Theory of Hybrid Cognitive Intelligence (EFT--HCI)
+develops a geometric and dynamical framework for modeling hybrid
+cognitive systems through coupled vortex, scalar, and constraint fields
+defined on ecological manifolds.
 
-5. Research Integrity Statement:
-The mathematical and conceptual structures introduced in this work are
-exploratory. Readers are encouraged to engage critically, independently
-evaluate assumptions, and verify results within their own research
-contexts.
+The theory integrates geometric, dynamical, and spectral ecological
+behaviors within a unified action-based formalism. Stability, collapse,
+and reconstitution are characterized through curvature structure,
+coherence functionals, and spectral operator analysis. The resulting
+framework establishes a mathematically consistent foundation for
+analyzing constraint-mediated cognition, multiscale coupling, and
+ecological phase transitions.
 
-TABLE OF CONTENTS
-------------------------------
-CHAPTERS
-1. Ecological Foundations of Hybrid Cognition (EFT–HCI)
-2. Constraint Geometry
-3. Resonance Fields
-4. Identity Gradients
-5. Ecological Field Equations
-6. Stability & Collapse Theory
-7. Attractor Manifolds
-8. Symmetry & Constraint Dynamics
-9. Ecological Spectral Theory
-10. Ecological Quantization & Hybrid Operator Fields
+------------------------------------------------------------------------
+
+## Independence Statement
+
+This work is independently developed and not affiliated with any
+institution, funding body, or research consortium. It does not request
+funding, institutional endorsement, or formal validation. The manuscript
+is presented as a theoretical contribution intended for open scholarly
+evaluation.
+
+------------------------------------------------------------------------
+
+## Disclaimer
+
+This manuscript develops a formal theoretical framework. It does not
+make empirical claims about specific biological, artificial, or
+institutional systems. Any interpretive applications remain speculative
+and require independent validation.
+
+------------------------------------------------------------------------
+
+# Table of Contents
+
+1.  Ecological Manifold
+2.  Constraint Geometry
+3.  Resonance Operators
+4.  Identity Divergence Flow
+5.  Ecological Field Equations
+6.  Curvature Instability & Identity Drift
+7.  Phase Transitions & Topology
+8.  Fixed Point Structures
+9.  Conservation Laws
+10. Multiscale Coupling & Renormalization
 11. Universality Classes
-12. Spontaneous Symmetry Breaking
+12. Symmetry Breaking
 13. Collapse & Criticality
 14. Open Problems
 
-APPENDICES
-A. Operator Algebra of EFT–HCI
-B. Tensor Formalism
-C. Action Functional Derivation
-D. Canonical Diagram Suite
+Appendices
 
+A. Operator Algebra B. Tensor Formalism C. Action Functional Derivation
+D. Canonical Diagram Suite

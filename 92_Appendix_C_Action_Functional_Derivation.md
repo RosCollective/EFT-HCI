@@ -1,153 +1,163 @@
-# Appendix C — Action Functional Derivation for EFT–HCI
+# Appendix C --- Action Functional Derivation
 
+## C.1 Geometric Setup
 
-## C.1 Ecological Action Principle
+Let (M, g) be an n-dimensional (pseudo-)Riemannian manifold with
+Levi--Civita connection ∇ and volume form
 
-The dynamics of the ecological manifold 𝓜_E are obtained from a variational
-principle applied to the ecological action S_E.
+    dV = √|g| dⁿx.
 
-General form:
+Let s denote the evolution parameter. The action functional is
 
-    S_E[g,Λ,Φ,Ψ] = ∫ ds ∫ dV 𝓛_E
+    S_E[g, Λ, Φ, Ψ] = ∫ ds ∫_M dV 𝓛_E,
 
-where 𝓛_E is the ecological Lagrangian density and dV = √|g| d^n x.
+with boundary terms assumed negligible.
 
-Variations with respect to fields yield:
+The parameter s denotes ecological evolution time: a real,
+non-equilibrium process parameter governing the dynamical evolution of
+field configurations on M. It is not assumed to coincide with any
+coordinate time induced by the metric g\_{μν}. Diffeomorphism invariance
+applies on M for fixed s, while dissipation and stability evolution
+occur along the s-flow.
 
-    δS_E / δg_{μν} = 0
-    δS_E / δΛ_{μν} = 0
-    δS_E / δΦ_μ = 0
-    δS_E / δΨ = 0
+Fields:
 
-## C.2 Ecological Lagrangian Density
+    Ψ        scalar field
+    Φ_μ      physical (non-gauge) covector field
+    Λ_{μν}   rank-2 constraint tensor
 
-The Lagrangian includes contributions from curvature, constraint geometry,
-resonance fields, identity gradients, and hybrid interaction energy.
+------------------------------------------------------------------------
 
-Define:
+## C.2 Vortex Structure of Φ
 
-    𝓛_E = ℛ
-         + α_Φ (∇_μ Φ_ν)(∇^μ Φ^ν)
-         + α_Ψ (∇_μ Ψ)(∇^μ Ψ)
-         + α_Λ Λ_{μν} Λ^{μν}
-         + β Φ_μ ∇^μ Ψ
-         + γ Λ_{μν} Φ^μ Φ^ν
-         + Υ(g,Λ,Φ,Ψ)
+Define the antisymmetric field strength
 
-Constants α_Φ, α_Ψ, α_Λ, β, γ encode ecological coupling strengths.
-Υ is an optional ecological potential term.
+    F_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ.
 
+Propagation in s is encoded by
 
-## C.3 Variation with Respect to the Metric
+    D_s Φ_μ = ∂_s Φ_μ.
 
-Metric variation:
+Ecological evolution derivative.
 
-    δS_E = ∫ dV δg_{μν} [ ℛ^{μν} − (1/2) g^{μν} 𝓛_E − T^{μν} ]
+In the present classical formulation we take
 
-where T^{μν} is the ecological energy-momentum tensor derived from fields:
+    D_s ≡ ∂_s
 
-    T^{μν} =
-        T^{(Φ) μν}
-      + T^{(Ψ) μν}
-      + T^{(Λ) μν}
+acting on component fields. All covariant derivatives ∇\_μ act on M at
+fixed s. More general extensions with additional connection structure in
+s may be introduced in operator or gauge formulations.
+
+------------------------------------------------------------------------
+
+## C.3 Lagrangian Density
+
+The ecological Lagrangian density is
+
+    𝓛_E
+      = 𝓡
+      − (α_Φ / 4) F_{μν} F^{μν}
+      + (κ_Φ / 2) (D_s Φ_μ)(D_s Φ^μ)
+      + (α_Ψ / 2) (∇_μ Ψ)(∇^μ Ψ)
+      + α_Λ Λ_{μν} Λ^{μν}
+      + β Φ_μ ∇^μ Ψ
+      + γ Λ_{μν} Φ^μ Φ^ν
+      + Υ
+      + χ_ν (∇_μ Λ^{μν} − Φ^ν Ψ).
+
+------------------------------------------------------------------------
+
+## C.4 Dissipation
+
+Introduce the Rayleigh dissipation functional (distinct from curvature
+𝓡)
+
+    𝓡_d = (η_Φ / 2) (D_s Φ_μ)(D_s Φ^μ),
+
+with η_Φ \> 0.
+
+The field equation follows from the Lagrange--d'Alembert principle:
+
+    δS_E / δΦ_μ + ∂𝓡_d / ∂(D_s Φ_μ) = 0.
+
+Thus dissipation contributes the friction term +η_Φ D_s Φ\^μ to the Φ
+equation.
+
+------------------------------------------------------------------------
+
+## C.5 Euler--Lagrange Equations
+
+### (i) Metric Variation
+
+Define the matter Lagrangian
+
+    𝓛_m = 𝓛_E − 𝓡.
+
+Then
+
+    G_{μν} = 𝓡_{μν} − (1/2) g_{μν} 𝓡 = T_{μν},
 
 with
 
-    T^{(Φ)}_{μν} = α_Φ ( Φ_{μα} Φ_ν^{ α} − (1/2) g_{μν} Φ_{αβ} Φ^{αβ} )
-    T^{(Ψ)}_{μν} = α_Ψ ( Ψ_μ Ψ_ν − (1/2) g_{μν} Ψ_α Ψ^α )
-    T^{(Λ)}_{μν} = α_Λ ( Λ_{μα} Λ_ν^{ α} − (1/2) g_{μν} Λ_{αβ} Λ^{αβ} )
+    T_{μν} = − (2 / √|g|) δ(√|g| 𝓛_m) / δg^{μν}.
 
-Field equation:
+------------------------------------------------------------------------
 
-    ℛ_{μν} − (1/2) g_{μν} ℛ = T_{μν}
+### (ii) Λ Variation
 
+    2 α_Λ Λ^{μν}
+    + γ Φ^μ Φ^ν
+    + ∂Υ / ∂Λ_{μν}
+    − ∇^{(μ} χ^{ν)}
+    = 0.
 
-## C.4 Variation with Respect to the Constraint Tensor Λ_{μν}
+Constraint equation:
 
-Variation:
+    ∇_μ Λ^{μν} = Φ^ν Ψ.
 
-    δS_E / δΛ_{μν} =
-        2 α_Λ Λ^{μν}
-      + γ Φ^μ Φ^ν
-      + ∂Υ/∂Λ_{μν}
+Constraint compatibility.
 
-Field equation:
+The constraint determines Λ\_{μν} up to addition of any divergence-free
+tensor K\^{μν} satisfying
 
-    2 α_Λ Λ^{μν} + γ Φ^μ Φ^ν + ∂Υ/∂Λ_{μν} = 0
+    ∇_μ K^{μν} = 0.
 
-Constraint divergence identity (from ∇_μ variation of L):
+Consistency under ecological evolution requires that the source J\^ν =
+Φ\^ν Ψ evolve compatibly with the coupled Euler--Lagrange system. In
+this formulation the constraint is enforced by the Lagrange multiplier
+χ_ν, so compatibility is imposed on-shell by the full set of field
+equations and does not introduce additional independent conditions.
 
-    ∇_μ Λ^{μν} = Φ^ν Ψ
+------------------------------------------------------------------------
 
+### (iii) Φ Variation
 
-## C.5 Variation with Respect to the Resonance Field Φ_μ
+    α_Φ ∇_ν F^{νμ}
+    + κ_Φ D_s² Φ^μ
+    + η_Φ D_s Φ^μ
+    + 2γ Λ^{μν} Φ_ν
+    + β ∇^μ Ψ
+    − χ^μ Ψ
+    + ∂Υ / ∂Φ_μ
+    = 0.
 
-Variation:
+------------------------------------------------------------------------
 
-    δS_E / δΦ_μ =
-        2 α_Φ ∇_ν Φ^{νμ}
-      + β ∇^μ Ψ
-      + 2 γ Λ^{μν} Φ_ν
-      + ∂Υ/∂Φ_μ
+### (iv) Ψ Variation
 
-Field equation:
+    α_Ψ ∇_μ ∇^μ Ψ
+    − β ∇_μ Φ^μ
+    − χ_μ Φ^μ
+    + ∂Υ / ∂Ψ
+    = 0.
 
-    2 α_Φ ∇_ν Φ^{νμ}
-      + β ∇^μ Ψ
-      + 2 γ Λ^{μν} Φ_ν
-      + ∂Υ/∂Φ_μ = 0
+------------------------------------------------------------------------
 
-Resonance–constraint coupling emerges naturally.
+## C.6 Conservation Statement
 
+On-shell, diffeomorphism invariance implies
 
-## C.6 Variation with Respect to the Identity Field Ψ
+    ∇_μ T^{μν} = 0.
 
-Variation:
-
-    δS_E / δΨ =
-        2 α_Ψ ∇_μ Ψ^μ
-      + β Φ_μ Φ^μ
-      + ∂Υ/∂Ψ
-
-Field equation:
-
-    2 α_Ψ ∇_μ Ψ^μ + β Φ_μ Φ^μ + ∂Υ/∂Ψ = 0
-
-Identity evolution couples directly to resonance intensity.
-
-
-## C.7 Consistency Conditions and Conservation Laws
-
-Diffeomorphism invariance implies:
-
-    ∇_μ T^{μν} = 0
-
-Gauge invariance under constraint group 𝒢_Λ requires:
-
-    [Λ̂, S_E] = 0
-
-This produces conserved operator charges:
-
-    Q_g, Q_Λ, Q_Φ, Q_Ψ
-
-
-## C.8 Path-Integral Formulation of the Action
-
-Quantum ecological transitions obtained via:
-
-    𝒜 = ∫ Dg DΛ DΦ DΨ exp[i S_E[g,Λ,Φ,Ψ]]
-
-Stationary-phase approximation gives classical EFT–HCI equations.
-Full integration yields EQFT dynamics.
-
-
-## C.9 Unified Action Candidate
-
-Proposed unification:
-
-    S_unified = ∫ dV ds ( ℛ + Λ² + Φ·∇Ψ + Υ + ℱ̂ + D̂² )
-
-Open problem:
-Derive this action from first principles rather than postulation.
-
-
+In the presence of dissipation, this relation defines a balance law for
+ecological stress--energy under the coupled dynamics.

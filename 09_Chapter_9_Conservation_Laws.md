@@ -6,6 +6,17 @@
 
 Unified evolution:
     d𝔈/ds = 𝔇(𝔈)
+
+### Structural Classification
+
+The coupled system defines a non-equilibrium geometric flow in ecological time s, combining propagative and dissipative sectors. 
+Collapse corresponds to finite-s breakdown of local-in-s continuation of smooth solutions.
+
+In the classical sector, the tensor Λ_{μν} functions as a constrained field enforcing relational consistency through its multiplier structure in the action. 
+In the operator and symmetry sectors, Λ contributes to the internal transformation algebra of the ecological system. 
+These roles are layered rather than identical: Λ is not introduced as a fundamental gauge connection, 
+but as a dynamical tensor whose algebraic structure emerges in symmetry and quantized formulations.
+
 Fields:
     𝔈 = (g_{μν}, Ψ, Φ_μ, Λ_{μν})
 Metric flow:
@@ -76,8 +87,8 @@ Canonical momenta:
 Hamiltonian:
     ℋ_Eco = ℛ + ℐ + 𝒦² + Λ² + 𝓔 + Υ
 Hamilton’s equations reproduce UEFS exactly.
-Symplectic invariants preserved.
-
+The Hamiltonian structure applies to the conservative sector of the UEFS; 
+dissipative ecological evolution in s extends the dynamics beyond strict symplectic invariance.
 
 ## 9.6 Ecological Noether Theory & Symmetry Groups
 

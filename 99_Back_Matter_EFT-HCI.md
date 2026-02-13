@@ -37,5 +37,6 @@ This canonical manuscript was assembled using open tools and released
 freely by The ROS Collective under the Creative Commons 
 Attribution–ShareAlike 4.0 International License (CC BY-SA 4.0).
 
-Version: EFT–HCI v1.0 (2025)  
-Compiled as a flat-text edition for maximum portability and accessibility.
+Version: EFT–HCI v1.0.3  
+Canonical Release — 2026  
+Flat-text edition for maximum portability and accessibility.

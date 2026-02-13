@@ -1,122 +1,103 @@
+# Chapter 6 --- Curvature Instability and Identity Drift
 
-# Chapter 6 — Hybrid Coherence & Fixed-Point Structures
+## 6.1 Coherence Functional
 
+Define the coherence functional
 
-## 6.1 Hybrid Coherence Functional & Coherence Norm
+    𝓗
+      = (α_Ψ / 2) (∇_μ Ψ)(∇^μ Ψ)
+      + (α_Φ / 4) F_{μν} F^{μν}
+      + (κ_Φ / 2) (D_s Φ_μ)(D_s Φ^μ)
+      + α_Λ Λ_{μν} Λ^{μν}
+      − 𝓡
 
-Coherence functional:
+where
 
-    𝓗 = ||∇Ψ||² + ||Φ||² + ||Λ||² − 𝓡.
+    F_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ.
 
-Coherence norm:
+------------------------------------------------------------------------
 
-    ||𝔈||_𝓗² = ∫ 𝓗 dV.
+## 6.2 Critical Points
 
-Local coherence condition:
+Coherence-critical configurations satisfy
 
-    𝓗 = 0  ⇒  ||∇Ψ||² + ||Φ||² + ||Λ||² = 𝓡.
+    ∇_μ 𝓗 = 0.
 
-Coherence flow:
+------------------------------------------------------------------------
 
-    D𝓗/Ds = u^μ ∇_μ 𝓗.
+## 6.3 Flow and Stability
 
-Instability when 𝓗 → ∞ or D𝓗/Ds > 0.
+Under gradient flow dynamics,
 
+    D_s 𝓗 = − || ∇ 𝓗 ||² − η_Φ (D_s Φ_μ)(D_s Φ^μ),
 
-## 6.2 Hybrid Fixed-Point Equations & Stability Structure
+This Lyapunov statement holds along the s-flow defined by the ecological field equations under the analytic assumptions stated in Section 5.7.
 
-Hybrid fixed-point:
+The norm \|\| ∇ 𝓗 \|\|² is taken with respect to the canonical L² inner
+product on field variations:
 
-    𝓗 = 0  and  ∇𝓗 = 0.
+    ⟨δX, δX⟩ = ∫_M dV (
+        δΨ²
+        + g^{μν} δΦ_μ δΦ_ν
+        + g^{μρ} g^{νσ} δΛ_{μν} δΛ_{ρσ}
+    ),
 
-Fixed-point equations:
+the gradient-flow statement represents a Lyapunov inequality for
+ecological evolution in s.
 
-    ||∇Ψ||² + ||Φ||² + ||Λ||² = 𝓡,
-    I_{μν} ∇^νΨ + Φ_ν ∇_μΦ^ν + Λ_{νσ} ∇_μΛ^{νσ}
-        = (1/2) ∇_μ 𝓡.
+    D_s 𝓗 ≤ 0.
 
-Hybrid fixed-point manifold:
+Thus coherence decreases monotonically along stable trajectories in
+ecological evolution time s. The monotonicity statement refers to the
+s-flow defined by the coupled ecological field equations and does not
+assume coincidence with any coordinate time on M.
 
-    𝓕 = { x | 𝓗 = 0, ∇𝓗 = 0 }.
+------------------------------------------------------------------------
 
-Stability via second-order variation of 𝓗.
+## 6.4 Stability Tensor
 
-
-## 6.3 Hybrid Coherence Flow & Fixed-Point Dynamics
-
-Flow decomposition:
-
-    D𝓗/Ds = J_Ψ + J_Φ + J_Λ − u·∇𝓡.
-
-Fixed-point types:
-    - attracting (J < 0),
-    - repelling (J > 0),
-    - saddle,
-    - marginal (J = 0, zero Hessian eigenvalues).
-
-Linearization:
-
-    dy/ds = H y,  H = g^{-1} 𝓚^(𝓗).
-
-Coherence orbits: D𝓗/Ds = 0 but 𝓗 ≠ 0.
-
-
-## 6.4 Hybrid Stability Tensor & Coherence Spectrum
-
-Hybrid Stability Tensor:
+Define the stability tensor
 
     𝓢_{μν} = ∇_μ ∇_ν 𝓗.
 
-Eigenvalue problem:
+At a critical point:
 
-    𝓢_{μν} v^ν = λ v_μ.
+-   Positive-definite 𝓢\_{μν} → stable basin.
+-   Mixed signature → saddle.
+-   Unbounded negative mode → instability.
 
-Coherence spectrum:
-    λ_i > 0 → stable,
-    λ_i < 0 → unstable,
-    mixed → saddle,
-    λ_i = 0 → marginal.
+------------------------------------------------------------------------
 
-Collapse when min(λ_i) → −∞.
+## 6.5 Curvature Instability
 
+Instability occurs when
 
-## 6.5 Ecological Lyapunov Functional & Coherence Dynamics
+    min(λ_i(𝓢)) → −∞.
 
-Lyapunov functional:
+------------------------------------------------------------------------
 
-    𝓛_E^(𝓗)[x(s)] = ∫ 𝓗(x(s)) ds.
-
-Lyapunov stability:
-
-    d𝓗/ds ≥ 0 near fixed-point.
-
-Gradient flow:
-
-    u^μ = −g^{μν} ∇_ν 𝓗
-    ⇒ d𝓗/ds = −||∇𝓗||² ≤ 0.
-
-Collapse: 𝓛_E^(𝓗) → ∞.
-
-
-## 6.6 Hybrid Coherence Manifolds & Invariant Sets
+## 6.6 Basin Structure
 
 Level sets:
 
-    Σ_c = { x | 𝓗(x) = c }.
+    Σ_c = { x ∈ M | 𝓗(x) = c }.
 
-Hybrid coherence manifolds:
-    𝓒 = { ∇𝓗 = 0 },
-    𝓕 = 𝓒 ∩ Σ_0,
-    𝓡 = 𝓒 ∩ Σ_{c>0},
-    𝓦 = 𝓒 ∩ Σ_{c<0}.
+Critical set:
 
-Invariant sets under U‑EFE:
-    - 𝓕 (fixed-points),
-    - Σ_0 (coherence membrane),
-    - 𝓦 (coherence wells),
-    - collapse sets (𝓗 → ∞).
+    𝓒 = { ∇𝓗 = 0 }.
 
-Hybrid coherence attractor structure:
-    determined by stability tensor eigenstructure.
+Partition:
 
+    𝓑⁺ = stable basins,
+    𝓑⁰ = metastable saddles,
+    𝓑⁻ = instability wells.
 
+------------------------------------------------------------------------
+
+## 6.7 Identity Drift
+
+Identity drift denotes exit from a stable coherence basin under
+curvature instability in the coupled Φ--Ψ--Λ dynamics.
+
+The coherence functional therefore defines the geometric stability
+landscape of EFT--HCI.

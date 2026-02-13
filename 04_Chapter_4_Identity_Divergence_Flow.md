@@ -1,116 +1,117 @@
 
 # Chapter 4 — Identity & Divergence Flow
 
-
 ## 4.1 The Identity Functional Ψ and Divergence Operator Ω̂
 
-Identity functional: Ψ(x).
+Let the identity functional be
 
-Divergence operator:
+    Ψ(x).
 
-    Ω̂ Ψ = ∇_μ(g^{μν} ∇_ν Ψ).
+The divergence operator acts as
 
-Identity gradient:
+    Ω̂ Ψ = ∇_μ (g^{μν} ∇_ν Ψ).
+
+The identity gradient is
 
     I_μ = ∇_μ Ψ.
 
-Stability along trajectory u^μ:
+Stability along a trajectory u^μ requires
 
     DΨ/Ds = u^μ ∇_μ Ψ = 0.
 
-Divergence tensor:
+The divergence tensor is
 
-    Ω_{μν} = ∇_μ ∇_ν Ψ.
+    Ω_{μν} = ∇_μ ∇_ν Ψ,
 
-Trace form:
+with trace
 
     Ω̂ Ψ = g^{μν} Ω_{μν}.
 
-Resonance interaction:
+Resonance interaction is encoded in the non-commutativity
 
     [Φ̂, Ω̂] Ψ ≠ 0.
 
+---
 
 ## 4.2 Identity Divergence Flow and Stability Manifolds
 
-Identity flow tensor:
+Define the identity flow tensor
 
     F_{μν} = ∇_μ ∇_ν (Ω̂ Ψ).
 
-Stability along trajectory:
+Stability along u^μ requires
 
     u^μ u^ν F_{μν} = 0.
 
-Divergence decomposition:
+The divergence decomposition is
 
-    Ω̂ Ψ = g^{μν} ∇_μ ∇_ν Ψ + (∇_μ g^{μν}) ∇_ν Ψ.
+    Ω̂ Ψ = g^{μν} ∇_μ ∇_ν Ψ
+          + (∇_μ g^{μν}) ∇_ν Ψ.
 
-Divergence equation:
+The evolution equation along trajectories becomes
 
     D²Ψ/Ds² = u^μ u^ν Ω_{μν}.
 
-Stability manifold Σ satisfies:
+A stability manifold Σ satisfies
 
-    Ω̂ Ψ = 0
-    and
+    Ω̂ Ψ = 0,
     D(Ω̂ Ψ)/Ds = 0.
 
-Instability criterion:
+Instability arises when
 
     g^{μν} Ω_{μν} > 0.
 
+---
 
-## 4.3 Divergence-Resonance Coupling
+## 4.3 Divergence–Resonance Coupling
 
-Coupling tensors:
+Decompose the Φ-gradient into symmetric and antisymmetric parts:
 
-    𝒞_{μν} = ∇_μ Φ_ν + ∇_ν Φ_μ
-    𝒦_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ.
+    𝒞_{μν} = ∇_μ Φ_ν + ∇_ν Φ_μ,
+    F_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ.
 
-Commutator:
+The commutator yields
 
     [Φ̂, Ω̂] Ψ
       = 𝒞^{μν} Ω_{μν}
-      + 𝒦^{μν} Ω_{μν}
-      + (∇_μ 𝒦^{μν}) ∇_ν Ψ.
+      + (∇_μ F^{μν}) ∇_ν Ψ.
 
-Instability when:
+Instability occurs when
 
-    (𝒞^{μν} + 𝒦^{μν}) Ω_{μν} > 0.
+    𝒞^{μν} Ω_{μν}
+    + (∇_μ F^{μν}) ∇_ν Ψ > 0.
 
-Neutralization requires:
+Neutralization requires
 
     𝒞_{μν} = 0,
-    𝒦_{μν} = 0,
-    ∇_μ 𝒦^{μν} = 0.
+    ∇_μ F^{μν} = 0.
 
+---
 
 ## 4.4 Divergence Horizons and Ecological Collapse
 
-Divergence horizon condition:
+A divergence horizon is defined by
 
-    ||Ω_{μν}|| → ∞
-    det(Ω_{μν}) = 0,  ∂_σ det(Ω_{μν}) ≠ 0.
+    ||Ω_{μν}|| → ∞,
+    det(Ω_{μν}) = 0,
+    ∂_σ det(Ω_{μν}) ≠ 0.
 
-Scalar divergence:
+Define the scalar divergence
 
     𝒟 = g^{μν} Ω_{μν}.
 
-Collapse when:
+Collapse occurs when
 
     |𝒟| → ∞.
 
-Critical alignment:
+Critical alignment satisfies
 
     𝒟 + ℛ_{μν} u^μ u^ν + Δ_{μν} u^μ u^ν = 0.
 
-Collapse manifold:
+The collapse manifold is
 
     𝒞 = { x | ||D^μ_ν|| → ∞ },
 
-where:
+with
 
     D^μ_ν = Ξ^μ_ν + Δ^μ_ν + ℛ^μ_ν.
-
-
-
