@@ -54,7 +54,7 @@ If you use or reference this work, please cite:
 
 > The ROS Collective (2026). "Ecological Field Theory of Hybrid
 > Cognitive Intelligence (EFT--HCI)." (v.1.0.3). Zenodo.\
-> DOI: https://doi.org/10.5281/zenodo.18065567
+> DOI: https://doi.org/10.5281/zenodo.18631591
 
 For citations that should always resolve to the latest version, you may
 use the concept DOI:
