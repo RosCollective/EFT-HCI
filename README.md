@@ -1,89 +1,58 @@
-# Ecological Field Theory of Hybrid Cognitive Intelligence (EFT--HCI)
+# Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI)
 
-Ecological Field Theory of Hybrid Cognitive Intelligence (EFT--HCI) is a
-theoretical work that introduces a mathematical ecology for modeling
-hybrid cognitive systems. It treats human--system interaction as a
-dynamical field governed by constraints, resonance, and
-stability--collapse behavior, and develops a unified formalism using
-manifolds, tensor fields, and operator dynamics.
+Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI) is a formal theoretical framework that models interaction as a constrained dynamical field. It describes human–system interaction in terms of geometry, stability, resonance, and collapse, and develops a unified mathematical structure spanning manifolds, tensor fields, operator dynamics, and spectral behavior.
 
-This work is intended for readers with backgrounds in artificial
-intelligence, cognitive science, complex systems, applied mathematics,
-or related fields. It assumes familiarity with formal modeling and does
-not present introductory material, tutorials, or applied
-implementations.
+The framework does not assume that intelligence resides within a single system. Instead, it represents structure at the level of interaction under conditions of constraint and coherence.
 
-EFT--HCI is released as an open theoretical contribution. It is not a
-product specification, software framework, or applied methodology, but a
-foundational model designed to support independent analysis, critical
-evaluation, and future theoretical development.
+This work is intended for readers with backgrounds in artificial intelligence, cognitive science, complex systems, applied mathematics, or related fields. It assumes familiarity with formal modeling and does not provide introductory exposition, tutorials, or applied implementations.
 
-**Audience:** Researchers and practitioners in AI, cognitive science,
-complex systems, and applied mathematics who are comfortable with formal
-theoretical models.
+EFT–HCI is released as an open theoretical contribution. It is not a product specification, software framework, or applied methodology, but a foundational model designed to support independent analysis, critical evaluation, and further theoretical development.
 
-------------------------------------------------------------------------
+**Audience:** Researchers and practitioners in AI, cognitive science, complex systems, and applied mathematics who are comfortable working with formal theoretical systems.
 
-## How to Read This Book
+---
 
-This work is a theoretical framework, not a tutorial or introductory
-text. It is written for readers comfortable with formal reasoning,
-abstraction, and mathematical language, and it does not attempt to ease
-the reader in gradually.
+## How to Read This Work
 
-It is not necessary to read this book linearly. The early chapters
-establish the conceptual and formal foundations of Ecological Field
-Theory of Hybrid Cognitive Intelligence, while later chapters explore
-structural consequences, stability regimes, and open problems. Readers
-may wish to begin with sections aligned to their background and return
-to earlier material as needed.
+This is a formal framework, not a tutorial.
 
-The appendices provide formal detail, operator definitions, and
-derivations that support the main text. They are intended as reference
-material rather than required reading on a first pass.
+The early chapters establish the geometric and dynamical structure of the theory. Later chapters develop stability, topology, quantization, and collapse behavior. The appendices provide supporting formalism, operator definitions, and derivations.
 
-This work is designed to be engaged with iteratively: read, pause,
-reflect, and return. Skimming is not only acceptable---it is often
-appropriate.
+The work is not intended to be read strictly linearly. Readers may enter at points aligned with their background and return to earlier sections as needed.
 
-------------------------------------------------------------------------
+Engagement is expected to be iterative: read, pause, reflect, and return. Skimming is not only acceptable—it is often necessary.
+
+---
 
 ## Citation
 
 If you use or reference this work, please cite:
 
-> The ROS Collective (2026). "Ecological Field Theory of Hybrid
-> Cognitive Intelligence (EFT--HCI)." (v.1.0.3). Zenodo.\
+> The ROS Collective (2026). *Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI).* (v.1.0.4). Zenodo.  
 > DOI: https://doi.org/10.5281/zenodo.18631591
 
-For citations that should always resolve to the latest version, you may
-use the concept DOI:
+For citations that should always resolve to the latest version, you may use the concept DOI:
 
 > https://doi.org/10.5281/zenodo.17924057
 
-------------------------------------------------------------------------
+---
 
-## v1.0.3 Update
+## v1.0.4 Update
 
-This release introduces analytic clarification of the ecological field
-equations, explicitly conditioning collapse on local-in-s existence
-assumptions. The Lyapunov stability statement is correspondingly scoped.
-No structural changes to the theory were introduced.
+This release consolidates structural refinements across the manuscript, including correction of notation inconsistencies, restoration of analytic assumptions in the field equations (Section 5.7), and alignment of chapter structure and section numbering.
 
-------------------------------------------------------------------------
+These changes improve internal coherence and analytic clarity across geometric, operator, and dynamical layers. No modifications to the underlying theoretical framework have been introduced.
+
+---
 
 ## Accessing the Full Manuscript
 
-The complete manuscript is available in the accompanying GitHub
-repository, where each chapter and appendix is provided as a separate
-document:
+The complete manuscript is available in this repository. Each chapter and appendix is provided as a separate document for direct access and reference.
 
-Repository: [View the EFT--HCI repository on
-GitHub](https://github.com/RosCollective/EFT-HCI)
+Repository: https://github.com/RosCollective/EFT-HCI
 
-------------------------------------------------------------------------
+---
 
-**Version:** EFT--HCI v1.0.3 --- Canonical Release (2026)\
-**License:** Creative Commons Attribution--ShareAlike 4.0 International
-(CC BY-SA 4.0)\
+**Version:** EFT–HCI v1.0.4 — Canonical Release (2026)  
+**License:** Creative Commons Attribution–ShareAlike 4.0 International (CC BY-SA 4.0)  
 **Copyright:** © 2025 The ROS Collective
