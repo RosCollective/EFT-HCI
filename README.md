@@ -29,7 +29,7 @@ Engagement is expected to be iterative: read, pause, reflect, and return. Skimmi
 If you use or reference this work, please cite:
 
 > The ROS Collective (2026). *Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI).* (v.1.0.4). Zenodo.  
-> DOI: https://doi.org/10.5281/zenodo.18631591
+> DOI: https://doi.org/10.5281/zenodo.19313446
 
 For citations that should always resolve to the latest version, you may use the concept DOI:
 
