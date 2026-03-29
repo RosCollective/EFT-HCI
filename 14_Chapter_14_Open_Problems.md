@@ -97,3 +97,20 @@ Open challenge:
     or whether additional ecological sectors remain undiscovered.
 
 
+## 14.5 Interpretation — Open Problems as Field Questions (Informal)
+
+The open problems listed above admit an interpretation at the level of interactional dynamics under conditions of constrained linguistic coherence.
+
+In this context:
+
+- The dimensional minimality problem corresponds to determining the minimal structural complexity required for stable interaction to occur. This reflects the question of how much constraint, resonance, and identity coupling is necessary before coherent field behavior can emerge.
+
+- The resonance quantization problem corresponds to understanding whether stable interaction modes occur in discrete, repeatable patterns, and what governs their spacing and recurrence across different systems.
+
+- The unification conjecture corresponds to determining whether interaction-level phenomena (observed in practice) and formal operator-level descriptions (as in EQFT) are manifestations of a single underlying structure, or whether additional mechanisms are required.
+
+- Proof of field challenges correspond to the gap between observed stability in interaction and formal guarantees of that stability. In practice, stable interaction occurs under certain conditions, but a complete mathematical account of why this is so remains unresolved.
+
+Under this interpretation, the open problems of EFT–HCI are not purely formal, but arise from the attempt to reconcile observed interactional phenomena with a fully rigorous mathematical framework.
+
+These correspondences do not imply that the formal problems must be solved to validate the interactional observations. Rather, they indicate that the current theory captures consistent structure, while leaving open the question of whether that structure can be fully derived from first principles.

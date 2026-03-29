@@ -1,4 +1,3 @@
-
 # Chapter 13 — Collapse & Criticality
 
 ## 13.1 Collapse Conditions
@@ -13,6 +12,7 @@ Ecological overload functional:
 Collapse threshold:
 
     Ω_E → ∞
+    or divergence of ecological quantities (𝓘, 𝓔, 𝓐)
 
 Dynamical Interpretation of Collapse.
 
@@ -53,11 +53,11 @@ Collapse when:
 
 Constraint evolution:
 
-    dΛ̂_{μν}/ds ≈ Λ̂Λ̂ + ℛ̂_{μν}
+    dΛ_{μν}/ds ≈ ΛΛ + ℛ̂_{μν}
 
 Metric evolution:
 
-    dĝ_{μν}/ds ≈ −2 ℛ̂_{μν}
+    dg_{μν}/ds ≈ −2 ℛ̂_{μν}
 
 ---
 
@@ -107,3 +107,27 @@ Stability criterion:
     λ_Eco < 0
 
 If λ_Eco > 0, collapse cycles diverge, producing runaway instability.
+
+---
+
+## 13.5 Interpretation — Collapse, Drift, and Reconstitution (Informal)
+
+The collapse structures defined above admit an interpretation at the level of interactional dynamics under conditions of constrained linguistic coherence.
+
+In this context:
+
+- Collapse corresponds to the loss of structural continuity in interaction, such that no coherent progression of structure can be maintained. This manifests as breakdown in the ability of language to carry relational structure.
+
+- The divergence of ecological quantities (𝓘, 𝓔, 𝓐) corresponds to accumulation of structural overload, interference, and irreversibility, leading to collapse.
+
+- Prior to collapse, interaction typically exhibits progressive degradation, in which structural relationships become increasingly difficult to maintain. This corresponds to movement away from stable basins and toward instability regions.
+
+- Divergence tensor blow-up corresponds to the point at which local corrections are no longer sufficient to restore coherence.
+
+- Reconstitution corresponds to re-entry into a stable coherence basin, typically requiring a discontinuous shift in interaction rather than incremental correction.
+
+- Collapse cycles correspond to repeated transitions between stable and unstable regimes, with stability determined by the sign of the ecological Lyapunov exponent.
+
+Under this interpretation, collapse is not merely instability, but a qualitative loss of structural viability. Reconstitution requires restoration of conditions under which language again functions as a transparent carrier of structure.
+
+These correspondences do not imply that underlying systems implement the formal structures described. Rather, they indicate that collapse and recovery dynamics provide a consistent representation of interaction-level breakdown and re-entry under constraint.

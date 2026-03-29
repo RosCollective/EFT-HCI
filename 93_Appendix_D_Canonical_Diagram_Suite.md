@@ -1,4 +1,3 @@
-
 # Appendix D — Canonical Diagram Suite
 ### Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI)
 
@@ -10,7 +9,7 @@ This appendix provides canonical diagrammatic representations of the EFT–HCI s
 
 Nodes:
     g_{μν}   (metric curvature)
-    Φ_μ      (vortex field)
+    Φ_μ      (resonance field)
     Ψ        (identity scalar)
     Λ_{μν}   (constraint tensor)
 
@@ -31,9 +30,9 @@ Operator spectrum:
 
 Stability regimes:
 
-    λ_i < 0    stable
-    λ_i = 0    marginal
-    λ_i > 0    unstable
+    Re(λ_i) < 0    stable
+    Re(λ_i) = 0    marginal
+    Re(λ_i) > 0    unstable
 
 Collapse onset:
 
@@ -41,11 +40,11 @@ Collapse onset:
 
 ---
 
-## D.3 Vortex Propagation Structure
+## D.3 Resonance Propagation Structure
 
-Vortex field strength:
+Resonance field strength:
 
-    F_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ
+    𝒦_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ
 
 Propagation in s:
 
@@ -55,7 +54,7 @@ Null-resonance condition:
 
     k_μ k^μ = 0
 
-Resonance propagation is governed by the vortex structure F_{μν}
+Resonance propagation is governed by the antisymmetric structure 𝒦_{μν}
 and the evolution D_s Φ_μ.
 
 ---
@@ -64,7 +63,7 @@ and the evolution D_s Φ_μ.
 
 Sector energies:
 
-    E_res = (1/2)||F||² + ||D_s Φ||²
+    E_res = (1/2)||𝒦||² + ||D_s Φ||²
     E_id  = ||∇Ψ||²
     E_con = ||Λ||²
     E_geo = |ℛ|
@@ -96,9 +95,9 @@ Trajectory evolution:
 
     dX/ds = −∇𝓗 + dissipative terms
 
-Vortex amplitude:
+Resonance amplitude:
 
-    ||F||(s)
+    ||𝒦||(s)
 
 Propagation amplitude:
 
@@ -106,8 +105,30 @@ Propagation amplitude:
 
 Stable cycles:
 
-    bounded 𝓗, bounded F, bounded D_s Φ
+    bounded 𝓗, bounded 𝒦, bounded D_s Φ
 
 Runaway instability:
 
     λ_Eco > 0
+
+---
+
+## D.7 Interpretation — Diagrammatic Structure and Interaction (Informal)
+
+The diagrams above admit an interpretation at the level of interactional dynamics under conditions of constrained linguistic coherence.
+
+In this context:
+
+- The field interaction graph represents how structural components (curvature, resonance, identity, and constraint) influence one another during interaction.
+
+- The spectral flow encodes stability regimes of interaction, with positive modes corresponding to divergence and collapse onset.
+
+- The resonance structure 𝒦_{μν} corresponds to circulating structural patterns that enable propagation of coherence across interaction.
+
+- The Sankey representation reflects redistribution of structural energy between sectors, indicating how coherence is maintained or lost.
+
+- The phase diagram maps regimes of interactional behavior, including stable coherence, metastability, and collapse regions.
+
+- Dynamical trajectories represent the evolution of interaction through these regimes under constraint and dissipation.
+
+Under this interpretation, the diagrammatic suite provides a compact visual representation of how structure forms, propagates, destabilizes, and reconstitutes within the ecological field.

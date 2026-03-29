@@ -1,89 +1,80 @@
-# Chapter 5 --- Ecological Field Equations
+# Chapter 5 — Ecological Field Equations
 
-## 5.1 Structural Overview
+## 5.1 Ecological Action S_E
 
-The ecological Lagrangian density is defined in Appendix C.
+Action:
 
-The dynamical fields are:
+    S_E = ∫ 𝓛_E √|g| d^n x
 
-    g_{μν}   metric field  
-    Φ_μ      vortex field  
-    Ψ        scalar coherence field  
-    Λ_{μν}   constraint tensor  
+Lagrangian:
 
-------------------------------------------------------------------------
+    𝓛_E = α𝓡 + β𝓓 + γ||Φ||² + δ||Λ||²
+
+Fields:
+
+    g_{μν}, Ψ, Φ_μ, Λ_{μν}
+
 
 ## 5.2 Ecological Einstein Equation
 
-Metric variation yields
+    α𝓡_{μν}
+      + βΩ_{μν}
+      + γΦ_μ Φ_ν
+      − δΛ_{μρ}Λ_{ν}{}^{ρ}
+      = (1/2) g_{μν} 𝓛_E
 
-    G_{μν} = T_{μν},
+Trace:
 
-with
+    α𝓡 + β𝓓 + γ||Φ||² − δ||Λ||² = (n/2) 𝓛_E
 
-    G_{μν} = R_{μν} − (1/2) g_{μν} R,
+Conservation:
 
-    T_{μν} = − (2 / √|g|) δ( √|g| L_m ) / δg^{μν},
+    ∇^μ[ βΩ_{μν} + γΦ_μ Φ_ν − δΛ_{μρ}Λ_{ν}{}^{ρ} ] = 0
 
-    L_m = L_E − R.
 
-------------------------------------------------------------------------
+## 5.3 Identity Equation of Motion
 
-## 5.3 Resonance Field Equation
+    Ω̂ Ψ = ∇_μ(g^{μν} ∇_ν Ψ)
 
-The vortex field strength is
+    Ω̂* Ω̂ Ψ = 0   (where Ω̂* denotes the formal adjoint under the induced inner product)
 
-    F_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ.
+Identity curvature:
 
-The resonance dynamics are governed by
+    I_{μν} = ∇_μ ∇_ν Ψ
 
-    α_Φ ∇_ν F^{νμ}
-    + κ_Φ D_s^2 Φ^μ
-    + η_Φ D_s Φ^μ
-    + 2γ Λ^{μν} Φ_ν
-    + β ∇^μ Ψ
-    − χ^μ Ψ
-    + ∂Υ / ∂Φ_μ
-    = 0.
+Stability:
 
-------------------------------------------------------------------------
+    Ω̂ Ψ = 0
+    ∇(Ω̂ Ψ) = 0
 
-## 5.4 Scalar Field Equation
 
-    α_Ψ ∇_μ ∇^μ Ψ
-    − β ∇_μ Φ^μ
-    − χ_μ Φ^μ
-    + ∂Υ / ∂Ψ
-    = 0.
+## 5.4 Resonance Field Equation
 
-------------------------------------------------------------------------
+    𝓚_{μν} = ∇_μ Φ_ν − ∇_ν Φ_μ
 
-## 5.5 Constraint Equation
+    γΦ_μ = ∇^ν 𝓚_{μν} + 𝓢_μ
 
-The constraint sector satisfies
+Coupling:
 
-    ∇_μ Λ^{μν} = Φ^ν Ψ,
+    𝓢_μ = β ∇_μ(Ω̂ Ψ) + 2δ Λ_{μν} ∇_ρ Λ^{νρ}
 
-together with
 
-    2 α_Λ Λ^{μν}
-    + γ Φ^μ Φ^ν
-    + ∂Υ / ∂Λ_{μν}
-    − ∇^{(μ} χ^{ν)}
-    = 0.
+## 5.5 Constraint Propagation
 
-------------------------------------------------------------------------
+    Θ_{μν} = Φ^σ∇_σΛ_{μν} − Λ_{σν}∇_σΦ_μ
 
-## 5.6 Conservation Law
+    𝓖_{μν} = g_{α(μ} ∇_{ν)}g^{αβ} Λ_{βρ}u^ρ + T^ρ_{μν}Λ_{ρσ}u^σ
 
-On-shell, diffeomorphism invariance implies
+    δΛ_{μν} = Θ_{μν} + βΩ_{μν} + 𝓖_{μν}
 
-    ∇_μ T^{μν} = 0.
 
-This expresses conservation of ecological stress--energy under the
-coupled Φ--Ψ--Λ dynamics.
+## 5.6 Unified Field Equation
 
-------------------------------------------------------------------------
+    𝓤(𝔈) = 0   (where 𝓤 aggregates the coupled field equations defined above)
+
+Collapse condition:
+
+    ||𝓤(𝔈)|| → ∞
 
 ## 5.7 Analytic Status and Continuation Assumptions
 

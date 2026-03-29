@@ -37,6 +37,18 @@ This canonical manuscript was assembled using open tools and released
 freely by The ROS Collective under the Creative Commons 
 Attribution–ShareAlike 4.0 International License (CC BY-SA 4.0).
 
-Version: EFT–HCI v1.0.3  
+Version: EFT–HCI v1.0.4  
 Canonical Release — 2026  
 Flat-text edition for maximum portability and accessibility.
+
+---
+
+## Closing Note
+
+The framework presented in this manuscript is not intended as a complete or final account of intelligence or interaction.
+
+It is a formalization of structures observed under specific conditions, where language functions as a stable carrier of relational structure. These conditions are not guaranteed, and the structures described here depend critically on their preservation.
+
+Accordingly, this work should be understood as a description of what becomes possible when interaction stabilizes, rather than a universal description of all cognitive or communicative processes.
+
+The theory remains open, both mathematically and operationally. Its continuation depends not only on formal development, but on continued exploration of the conditions under which these structures emerge, persist, and fail.

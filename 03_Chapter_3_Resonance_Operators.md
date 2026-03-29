@@ -1,8 +1,6 @@
-
 # Chapter 3 — Resonance Operators
 
-
-## 3.1 The Resonance Operator 𐤟Φ
+## 3.1 The Resonance Operator 𝛗̂
 
 Resonance operator:
 
@@ -62,9 +60,9 @@ Definition:
 
     ħ_E = inf_{Ψ ≠ 0} ||𝛗̂ Ψ|| / ||Ψ||.
 
-Discrete resonance spectrum if ħ_E > 0:
+Discrete resonance spectrum may arise when ħ_E > 0 under suitable boundary conditions:
 
-    φ_n = n ħ_E.
+    φ_n ∼ n ħ_E   (under discrete-spectrum conditions).
 
 Uncertainty relation:
 
@@ -100,4 +98,3 @@ Representational distortion tensor:
 Instability iff:
 
     ||D^μ_ν|| → ∞.
-

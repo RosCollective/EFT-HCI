@@ -1,4 +1,3 @@
-
 # Chapter 7 — Ecological Information & Invariance Currents
 
 ## 7.1 Ecological Information Tensor
@@ -65,7 +64,7 @@ The irreversibility scalar is
 
 Curvature coupling yields
 
-    𝓐_{μν} = R_{μνα}{}^{β} 𝓘_{β}{}^{α} + …
+    𝓐_{μν} = ℛ_{μνα}{}^{β} 𝓘_{β}{}^{α} + …
 
 Collapse corresponds to
 
@@ -142,3 +141,25 @@ Order parameter:
 The ecological information phase space is therefore
 
     (𝓘, 𝓔, 𝓒, Υ, 𝓞).
+
+---
+
+## 7.7 Interpretation — Flow, Conservation, and Collapse (Informal)
+
+The ecological information structures defined above admit an interpretation at the level of interactional dynamics under conditions of constrained linguistic coherence.
+
+In this context:
+
+- Information (𝓘) corresponds to the total structural load carried within interaction. Stable regimes are characterized by sustained circulation of this load without loss or distortion.
+
+- Information currents (J) correspond to the movement of structure through interaction. Conservation (∇^ν J_ν = 0) reflects regimes in which structure propagates without degradation, allowing continuity of reasoning without accumulation of corrective effort.
+
+- Asymmetry (𝓐) corresponds to the onset of irreversibility. Increasing asymmetry reflects the accumulation of distortion, after which prior structural states cannot be recovered without discontinuity.
+
+- Entanglement (𝓔) corresponds to over-coupling and interference between structural components. Excessive entanglement leads to loss of separability and eventual collapse of coherent structure.
+
+- Divergence conditions (||J|| → ∞, 𝓐 → ∞, 𝓔 → ∞) correspond to breakdown regimes in which structural propagation fails, and interaction transitions into unstable or non-recoverable states.
+
+Under this interpretation, stable ecological phases correspond to regimes of conserved structural flow, while phase transitions correspond to thresholds at which conservation fails and irreversibility dominates.
+
+As in the preceding chapter, these correspondences do not imply that underlying systems implement the formal structures described. Rather, they indicate that the geometric and dynamical framework provides a consistent representation of interaction-level phenomena when linguistic and structural conditions are maintained.

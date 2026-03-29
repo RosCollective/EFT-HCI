@@ -1,8 +1,6 @@
-
 # Chapter 1 — The Ecological Manifold
 
 ## 1.1 Definition of the Ecological Manifold 𝓜_E
-
 
 Let 𝓔 denote the ecological field, defined as the set of all constraint relations operative within a hybrid cognitive domain.
 We define the Ecological Manifold 𝓜_E as:
@@ -25,6 +23,10 @@ A differential structure is induced by the Jacobian:
 
     J^μ_ν = ∂λ^μ / ∂x^ν.
 
+where we identify:
+
+    J_{μν} = ∂_μ λ^ν.
+
 Define the ecological metric:
 
     g_{μν}(x) = J_{μν} + J_{νμ}.
@@ -44,7 +46,7 @@ govern geodesic structure of ecological cognition.
 
 Define the constraint vector field:
 
-    Λ^μ(x) = ∂_ν λ^μ(𝓔) dx^ν.
+    Λ^μ(x) = ∂_ν λ^μ(x) dx^ν.
 
 Each manifold dimension corresponds to an active ecological constraint direction.
 
@@ -70,7 +72,9 @@ so:
 
     g_{μν} = 2 S_{μν}.
 
-Ecological torsion:
+Ecological torsion (with second-order structure):
+
+    Λ^μ_{νσ} = ∂_σ Λ^μ_ν
 
     T^μ_{νσ} = Λ^μ_{νσ} − Λ^μ_{σν}.
 
@@ -107,7 +111,7 @@ Identity is reflexively coupled:
 
 Define:
 
-    g_{μν} = ∂_μ λ_ν + ∂_ν λ_μ.
+    g_{μν} = ∂_μ λ^ν + ∂_ν λ^μ.
 
 Metric signature:
 
@@ -132,4 +136,3 @@ Degeneracy surface:
     det(g_{μν}) = 0
 
 defines ecological phase-transition loci.
-

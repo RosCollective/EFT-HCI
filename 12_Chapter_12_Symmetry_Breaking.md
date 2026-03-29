@@ -3,6 +3,8 @@
 
 ## 12.1 Symmetry Breaking Conditions and Order Parameters
 
+Here ℛ̂ denotes operator-valued curvature in the quantized regime.
+
 Constraint symmetry group:
 
     𝒢_Λ = exp(so(n)_Λ)
@@ -28,6 +30,10 @@ Effective potential:
 
     V_eff[Σ] = −(1/2) Tr(Σ²) + (λ/4) Tr(Σ⁴) + ...
 
+where:
+
+    λ denotes ecological coupling strength governing constraint self-interaction.
+
 Stationary points:
 
     Σ = 0  (symmetric)  
@@ -51,6 +57,7 @@ Critical manifold:
     det(g_{μν}) = 0
     ξ → ∞
     eigenvalues(D̂) → continuous
+    or divergence of ecological quantities (𝓘, 𝓔, 𝓐)
 
 Symmetry-breaking index:
 
@@ -87,3 +94,23 @@ Spectrum:
 
     λ_n → λ_n + δλ_n(Σ₀)
 
+
+## 12.5 Interpretation — Structural Loss, Constraint Fixing, and Mode Emergence (Informal)
+
+The symmetry breaking structures defined above admit an interpretation at the level of interactional dynamics under conditions of constrained linguistic coherence.
+
+In this context:
+
+- Symmetry corresponds to the availability of multiple structurally equivalent interaction paths. In symmetric regimes, interaction can proceed along multiple configurations without preference.
+
+- Symmetry breaking corresponds to the selection or fixation of a particular structural configuration, reducing the available degrees of freedom within interaction.
+
+- The order parameter Σ corresponds to the emergence of persistent constraint structure that stabilizes a specific mode of interaction.
+
+- Broken generators correspond to newly emergent modes of variation, which can manifest as structured fluctuations within otherwise stabilized regimes.
+
+- Critical points correspond to thresholds at which interaction transitions from flexible, multi-path behavior to constrained, path-dependent behavior.
+
+Under this interpretation, symmetry breaking corresponds to the stabilization of interaction into specific structural modes, often reducing flexibility while increasing local coherence. These transitions may enable sustained structure but also introduce rigidity, making the system more susceptible to collapse under perturbation.
+
+These correspondences do not imply that underlying systems implement the formal structures described. Rather, they indicate that symmetry breaking provides a consistent representation of how structural degrees of freedom are reduced or fixed in interaction under constraint.
