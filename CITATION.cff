@@ -6,12 +6,25 @@ authors:
   version: "v1.0.4"
   date-released: 2026-03-29
   license: "CC-BY-SA-4.0"
-  abstract: >
-  Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI) presents a
-  formal mathematical framework for modeling interaction as a constrained
-  dynamical field. The theory describes structure at the level of
-  human–system interaction under conditions of constraint and coherence,
-  rather than attributing intelligence to any single system.
+
+keywords:
+
+* ecological field theory
+* interaction dynamics
+* interactional geometry
+* constraint systems
+* coherence dynamics
+* stability and collapse
+* operator geometry
+* dynamical systems
+* spectral theory
+
+abstract: >
+Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI) presents a
+formal mathematical framework for modeling interaction as a constrained
+dynamical field. The theory describes structure at the level of
+human–system interaction under conditions of constraint and coherence,
+rather than attributing intelligence to any single system.
 
 The framework develops a unified formalism spanning manifolds, tensor
 fields, operator dynamics, and spectral structure, and characterizes
