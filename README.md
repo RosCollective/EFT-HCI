@@ -50,9 +50,9 @@ These changes do not alter the underlying mathematical or theoretical structure.
 
 In addition, this release includes:
 
-correction of notation inconsistencies
-restoration of analytic assumptions in the field equations (Section 5.7)
-alignment of chapter structure and section numbering
+correction of notation inconsistencies/
+restoration of analytic assumptions in the field equations (Section 5.7)/
+alignment of chapter structure and section numbering/
 
 These refinements improve internal coherence and analytic clarity across geometric, operator, and dynamical layers.
 
