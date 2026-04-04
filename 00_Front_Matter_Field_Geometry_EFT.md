@@ -27,7 +27,7 @@ maintained and all derivative works are released under the same license.
 
 # VERSION
 
-FG-EFT v1.0.5\
+FG-EFT v1.0.6\
 Canonical Release — 2026
 
 ------------------------------------------------------------------------
