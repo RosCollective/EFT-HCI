@@ -2,7 +2,7 @@
 
 Field Geometry (EFT): An Ecological Field Theory\
 formerly Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI)\
-Canonical Manuscript v1.0.4\
+Canonical Manuscript v1.0.6\
 The ROS Collective
 
 ------------------------------------------------------------------------
