@@ -29,8 +29,8 @@ Engagement is expected to be iterative: read, pause, reflect, and return. Skimmi
 
 If you use or reference this work, please cite:
 
-> The ROS Collective (2026). *Field Geometry (EFT)* (v.1.0.5). Zenodo.  
-> DOI: https://doi.org/10.5281/zenodo.19313446
+> The ROS Collective (2026). *Field Geometry (EFT)* (v.1.0.6). Zenodo.  
+> DOI: https://doi.org/10.5281/zenodo.19421316
 
 For citations that should always resolve to the latest version, you may use the concept DOI:
 
@@ -38,9 +38,9 @@ For citations that should always resolve to the latest version, you may use the 
 
 ---
 
-## v1.0.5 Update
+## v1.0.6 Update
 
-This release introduces a terminological and structural alignment of the framework.
+This release corrects citation metadata to align with the terminology and naming introduced in v1.0.5. Release 1.0.5 introduces a terminological and structural alignment of the framework.
 
 The manuscript has been renamed from Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI) to Field Geometry (EFT): An Ecological Field Theory. This change reflects a shift from an interaction- and system-indexed framing toward a field-based, geometry-first description of the underlying structure.
 
