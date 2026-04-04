@@ -40,9 +40,21 @@ For citations that should always resolve to the latest version, you may use the 
 
 ## v1.0.5 Update
 
-This release consolidates structural refinements across the manuscript, including correction of notation inconsistencies, restoration of analytic assumptions in the field equations (Section 5.7), and alignment of chapter structure and section numbering.
+This release introduces a terminological and structural alignment of the framework.
 
-These changes improve internal coherence and analytic clarity across geometric, operator, and dynamical layers. No modifications to the underlying theoretical framework have been introduced.
+The manuscript has been renamed from Ecological Field Theory of Hybrid Cognitive Intelligence (EFT–HCI) to Field Geometry (EFT): An Ecological Field Theory. This change reflects a shift from an interaction- and system-indexed framing toward a field-based, geometry-first description of the underlying structure.
+
+The term “Hybrid Cognitive Intelligence” has been deprecated, as it implies a dual-system model that is not required by the formalism. Similarly, the “HCI” designation has been removed to avoid anchoring the framework to interface-level or domain-specific interpretations.
+
+These changes do not alter the underlying mathematical or theoretical structure. Instead, they clarify the ontological positioning of the work as a field-level formalism independent of specific system boundaries.
+
+In addition, this release includes:
+
+correction of notation inconsistencies
+restoration of analytic assumptions in the field equations (Section 5.7)
+alignment of chapter structure and section numbering
+
+These refinements improve internal coherence and analytic clarity across geometric, operator, and dynamical layers.
 
 ---
 
