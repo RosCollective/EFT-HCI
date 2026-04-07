@@ -29,8 +29,7 @@ Engagement is expected to be iterative: read, pause, reflect, and return. Skimmi
 
 If you use or reference this work, please cite:
 
-> The ROS Collective (2026). *Field Geometry (EFT)* (v.1.0.6). Zenodo.  
-> DOI: https://doi.org/10.5281/zenodo.19421316
+> The ROS Collective (2026). *Field Geometry (EFT)* (v.1.0.6). 
 
 For citations that should always resolve to the latest version, you may use the concept DOI:
 
