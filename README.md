@@ -27,7 +27,7 @@ Engagement is expected to be iterative: read, pause, reflect, and return. Skimmi
 
 ## Relationship to Ecological Field Theory (EFT)
 
-Motion Geometry (EFT) forms part of a broader system:
+Field Geometry (EFT) forms part of a broader system:
 
 * **Field Geometry (EFT)**  *(this repository)*  
   A formal description of interaction as a constrained dynamical field, defining the structure within which the field operates
